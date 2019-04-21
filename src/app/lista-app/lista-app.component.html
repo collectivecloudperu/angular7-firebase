@@ -1,0 +1,21 @@
+
+    <table class="table table-bordered table-responsive-sm table-responsive-md table-responsive-lg">
+      <thead>
+        <tr>
+          <th scope="col">Id</th>
+          <th scope="col">Nombre</th>
+          <th scope="col">Precio</th>
+          <th scope="col">Stock</th>          
+        </tr>
+      </thead>
+      <tbody>
+
+        <!-- Listamos los datos mediante la directiva ngFor -->          
+        <tr *ngFor="let dato of Dato">
+          <th>{{dato.$key}}</th>
+          <td>{{dato.nombre}}</td>
+          <td>{{dato.precio}}</td>
+          <td>{{dato.stock}}</td>          
+        </tr>
+      </tbody>
+    </table>

@@ -1,0 +1,14 @@
+<!-- Imprimimos el título que definimos en el archivo app.component.ts --> 
+<h1 class="mb-3"> {{ title }} </h1>
+
+
+<!-- Creamos un botón 'Listar Datos' que desaparecerá al hacerle clic y listará los datos desde Firebase Realtime Database  -->
+<div class="epmd" *ngIf="isValid">
+
+	<p>"Haz clic en el botón <strong>Listar Datos</strong> para mostrar los datos desde Firebase Database" <img src="../assets/ifb.png" width="3%"> </p>
+
+	<a href="#listar-datos" class="btn btn-primary mb-3" (click)="check(false)">Listar Datos</a>
+
+</div>
+
+<router-outlet></router-outlet>
