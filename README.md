@@ -1,1 +1,2 @@
-# angular7-firebase
+# Como Integrar Firebase y Angular 7 + Listado de Datos desde Firebase 
+Angular una de las tecnologías más geniales nos ofrece rapidez, dinámica, practicidad, etc. cuando de consumir servicios se trata, en este tutorial vamos hacer uso de Firebase, la plataforma de Google que nos ofrece un conjunto de servicios muy buenos, primero vamos a integrar Firebase con Angular 7 y luego listaremos unos datos desde Firebase Realtime Database. 
